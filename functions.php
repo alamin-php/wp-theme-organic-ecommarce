@@ -36,7 +36,6 @@ function organi_assets() {
     wp_enqueue_script( 'mixitup-js', get_theme_file_uri("js/mixitup.min.js"), array("jquery"), VERSION, true);
     wp_enqueue_script( 'owl-carousel-js', get_theme_file_uri("js/owl.carousel.min.js"), array("jquery"), VERSION, true);
     wp_enqueue_script( 'main-js', get_theme_file_uri("js/main.js"), array("jquery"), VERSION, true);
-    wp_enqueue_script( 'custom-js', get_theme_file_uri("js/custom.js"), array("jquery"), VERSION, true);
     }
 add_action( 'wp_enqueue_scripts', 'organi_assets' );
 
